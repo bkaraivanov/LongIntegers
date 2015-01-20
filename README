@@ -1,0 +1,15 @@
+﻿The Long Integers library implements arbitrarily long integers with support for
+I/O and the basic arithmetic operations: addition, subtraction, multiplication,
+positive integer power, and integer division (quotient and remainder). It is 
+minimalist by design for it was written just to cover the needs of a particular
+computational problem I had to solve. The library proved useful also in testing
+several number-theoretic hypotheses well beyond the limits of the built-in 
+integers. Currently, there are no plans to add more functionality to the 
+library since several excellent libraries implementing multiple precision 
+arithmetic already exist (e.g., GMP). In comparison to them, Long Integers's 
+only advantage is being small and manageable. Besides making it work correctly,
+the main consideration in the design and implementation of the library was 
+making it intuitive and easy to modify. Efficiency was only second.
+
+The library is written in C++ using STL. It is provided as open source under 
+the LGPL v.3 license. 
